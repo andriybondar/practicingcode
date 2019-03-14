@@ -1,0 +1,7 @@
+scanner.next
+object.method
+
+
+mutator
+setter
+getter

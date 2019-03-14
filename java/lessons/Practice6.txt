@@ -1,0 +1,47 @@
+algorithm a1
+	var Number : x <- 20
+	a2(x)
+	print (x * 2)
+	x <- x * 2
+	print (x * 2)
+end algorithm
+
+algorithm a2(x : Number)
+print (x)
+x <- x / 2
+print (x)
+end algorithm
+
+
+
+Subalgorithms are classified into
+Functions: have return value
+Procedures: have no return value - print, read
+
+
+There are two parts on any algorithm / subalgorithm
+
+Declaration
+Header
+algorithm <name> ({<parameters>}) {: <type>}
+
+Definition
+Body
+Data and actions
+
+
+
+Arithmetic Functions:
+abs (<num expr>): Returns the absolute value of the passed numeric expression as parameter.
+sin (<num expr>): : Returns the sine of the passed numeric expression as parameter.
+cos (<num expr>): : Returns the cosine of the passed numeric expression as parameter.
+tan (<num expr>): : Returns the tangent of the passed numeric expression as parameter.
+random (): Returns a random number between 0 (inclusive) and 1 (not inclusive)
+toString (<num  expr>): Returns the representation as string of the passed expression as parameter.
+
+
+String Functions:
+length (<text expr>): Returns the number of characters in the string passed as parameter.
+charAt(<text expr>,<num expr>): Returns the character in the string passed as first parameter in the position indicated by the second parameter. If such a position doesn’t exist, an error occurs. We consider 0 as the beginning.
+toNumber(<text expr>): Returns the numeric value of a string. If the string does not equal a Number then an error occurs.
+modular war philosophy china

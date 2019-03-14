@@ -1,0 +1,72 @@
+Write an algorithm to read a number by keyboard and say if it is positive or negative.
+
+algorithm posNegNumber
+var number x
+read x
+if x>=0
+print ('X is positive number )
+
+8)Perform an algorithm to read a number and report if it is greater, equal or less than zero.
+
+
+
+9)Write an algorithm that determines if a number is even.
+algorithm evenNumber
+var number
+read number
+if (num mod 2==0)
+print (input is evenNumber)
+else
+print (input is odd)
+end if
+
+
+
+10)Make an algorithm to read two real numbers and print the largest of them.
+
+11)Given the radius of a circle, make an algorithm to calculate the value of the area.
+
+12)Write an algorithm that determines if an "N" number is divisible by another "M".
+
+algorithm divisible
+var N,M;
+read N
+read M
+if M==0
+println(N+" is divisible by M");
+else
+if (N % M == 0)
+println(N+" is divisible by M");
+else
+println(n+" is not divisible by 5");
+end if
+
+13)Write an algorithm to translate a time expressed in days, hours, minutes and seconds to time expressed in seconds.
+
+14)We are being informed of three environmental temperature values,
+and we are asked to develop an algorithm to calculate and report the sum and average of these values.
+
+15)For our brave ones: translate a time expressed in seconds to a time expressed in days, hours, minutes and seconds.
+Try to do it with loops
+algorithm secondsToDaysHoursMinutesSeconds
+var T,D,H,M,S
+D<-86400
+H<-3600
+M<-60
+S<-0
+read T
+
+newD= T mod D
+write newD
+
+newH=(T-D) mod H
+write newH
+
+newM=mod(T-D-H) mod M
+write newM
+
+newS=mod(T-D-H-M) mod S
+write newS
+
+println('T seconds is'+ D 'days', H 'hours', M 'minutes and' S 'seconds');
+end algorithm

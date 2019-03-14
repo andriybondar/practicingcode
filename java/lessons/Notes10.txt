@@ -1,0 +1,99 @@
+method vs function
+
+
+
+isBroken = engineNotworking || gearboxNotWorking
+isBroken = True/False || True/False
+isBroken = True/False
+
+
+primitive data types vs class type variables
+A primitive data type variable
+Stores values that represent data.
+Value Variables.
+
+
+Class Type variable
+Stores a value which is a references to an object of the class.
+Reference Variables.
+
+Primitive data type variables store values of that type.
+
+Class type variables store references to objects of that class.
+
+There are 4 statement categories:
+Declaration
+A. Variables
+Sentences in which I declare a variable and I can optionally define
+its value (initialize it)
+<TYPE> <IDENTIFIER VARIABLE> = <EXPR>;
+
+
+Expression or Sequence
+
+Sequence
+5 types:
+Assignment
+Increment or Decrement
+Invoke métodos.
+Object Creation
+Examples:
+num = 5;  //
+num = num * 6; //
+myBike = new
+
+
+
+Decission-making (selection)
+Looping (Iteration)
+
+Sequence
+5 types:
+Assignment
+Increment or Decrement
+Invoke métodos.
+Object Creation
+
+costructor is a special type of a function, has not used with a new operator
+
+System.out.println(”Hello World!!!");
+Class.object.method(argument)
+
+
+scanner.nextInt();
+<IDENTIFIER VAR>.<IDENTIFIER METHOD>( <no ARGUMENTS>);
+
+Name of the java class should be the same as the java file? - Yes
+
+
+
+public class ConcatenateVariables {
+    public static void main(String[] args) {
+        int myNumber;
+        myNumber = 5;
+    System.out.println("myNumber");
+
+    }
+}
+
+
+Numbers
+int myNumber = 5;
+
+
+double d = 4.5;
+d = 3.0;
+
+float f = (float) 4.5;
+float f = 4.5f (f is a shorter way of casting float)
+
+Characters and Strings
+
+char c = 'g';
+
+//Create a string with a constructor
+String s1 = new String("Who let the dogs out?");
+//Just using "" creates a string, so no need to write it the previous way.
+String s2 = "Who who who who!";
+//Java defined the operator + on strings to concatenate:
+String s3 = s1 + s2;

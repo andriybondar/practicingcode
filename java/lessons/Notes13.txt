@@ -1,0 +1,15 @@
+Postfix var++ var--
+Unary  ++var --var +expr -expr ~ !
+Multipliers * / %
+Additive + -
+Bits << >> >>>
+Relation < > <= >= instanceof
+Equal == !=
+
+Logic AND &&
+
+Logico OR ||
+
+Ternary ? :
+
+Assignment = += -= *= /= %= &= ^= |= <<= >>= >>>=

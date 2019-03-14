@@ -1,0 +1,90 @@
+SELECTION
+IF
+if (<CONDITION>) //
+{
+<Sentences executed if condition is TRUE>
+}
+else
+{
+<Sentences executed if condition is FALSE>
+}
+
+
+if (<CONDITION1>)
+{
+<Sentences executed if condition1 is TRUE> }
+else if (<CONDITION2>)
+{
+<Sentences executed if condition2 is TRUE> }
+else if (<CONDITION3>)
+{
+<Sentences executed if condition3 is TRUE> }
+else
+{
+	<Sentences executed if all previous conditions are FALSE>
+}
+
+WHILE
+Switch (<EXPRESSION>)
+{
+case <VALUE1>:
+<Statements>;
+break;
+case <VALUE2>
+<Statements>;
+break;
+case <VALUEN>:
+<Statements>;
+break;
+default:
+<Statements>;
+break;
+}
+
+
+
+ITERATION  = cycle= loop
+
+for (<START>; <COND>;<INCREMENT>)
+{
+	<Sentences>
+}
+
+
+for (int i = 0;i < 5;i++)
+{
+System.out.println(“Iteration number “ + i);
+}
+
+for (int i = 10;i > 0;i--) // Decrement from 10 to 0.
+{
+	System.out.println(“Print positive numbers from “ + i);
+}
+
+WHILE
+while (<COND>)
+{
+<Sentences>
+}
+
+int i = 0;
+while (i < 10)
+{
+System.out.println(“Iteration number “ + i);
+i++; // variable i increment.
+}
+
+DO WHILE
+do
+{
+<Sentences>;
+}
+while (<COND>);
+
+int i = 0;
+do
+{
+System.out.println(“Iteration number “ + i);
+i++;
+}
+while (i < 10)

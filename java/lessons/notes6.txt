@@ -1,0 +1,23 @@
+3 types of Actions
+instructions
+conditionals
+iterations
+
+abstraction
+inheritance
+encapsulation
+polymorphism
+
+
+algorithm <name> ({parameters}) {: <type>}
+  // data
+  // actions
+  {return} <print>
+end algorithm
+
+
+local and global variables
+Name
+Type
+Value
+Scope

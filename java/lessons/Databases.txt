@@ -1,0 +1,91 @@
+CRUD = SIOD
+DDL CREATE, ALTER, and DROP - tables, columns
+DML INSERT, UPDATE and DELETE - rows
+<databasename>.<datbasetable>
+
+ObjectReletionalMapping
+
+CREATE TABLE Persons (
+    PersonID int,
+    LastName varchar(255),
+    FirstName varchar(255),
+    Address varchar(255),
+    City varchar(255)
+);
+
+
+CodeNinja
+
+Students
+  ID
+  FirstName
+  LastName
+  Address
+  StartDate
+  EndDate
+
+Courses
+  ID
+  CourseName
+    Games
+    Pyton
+    Algorithms
+  CourseDescription
+    Desc1
+    Desc2
+    Desc3
+  StudentId
+
+StudentCourses (many to many)
+  ID
+  Students
+  Courses
+
+StudentsBelts (many to many)
+  ID
+  Students
+  Belts
+
+Belts
+  ID
+  BeltColour
+    Blue
+    Yellow
+    Black
+  BeltName
+    StepingStone
+    Ninja
+    Sansei
+-CoursesId
+
+Staff
+  ID
+  FirstName
+  LastName
+  Notes
+  StartDate
+  Availability
+
+Availability
+    ID
+    Mon
+    Tue
+    Wed
+    ...
+    Sun
+
+Roles
+  ID
+  RoleName
+    Admin
+    Manager
+    Staff
+  RoleNumber
+    30
+    20
+    10
+
+StaffRoles
+  ID
+  StaffId
+  RoleId

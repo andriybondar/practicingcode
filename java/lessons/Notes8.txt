@@ -1,0 +1,40 @@
+class
+  objest
+    attributes
+
+method = function
+algorithm
+variable
+
+Package scope can not have two different classes.
+But can have within different package scope.
+
+-------------
+public class MyFirstClass
+{
+	public void static main (String args[]) - method
+{
+	System.out.println (“This is the output of a program”);
+}
+}
+------------
+
+public class MySecondClass - DOG
+{
+	public void (void - returns anything; return type: int, string,.. ) static main  (String - data type; args[]-parameter) - method = function
+{
+int res;
+res = 5 + 3 // res is assigned with the result of adding 5 and 3, 8.
+System.out.println (“The result of 5 + 3 is, ” + res);
+}
+}
+------------
+public class MyThirdClass
+{
+	public void static main (String args[])
+{
+	int res;
+	res = ((5 + 5) * 5) / (10 – 5);
+	System.out.println (“The result of ((5 + 5) * 5) / (10 – 5) is” + res);
+}
+}

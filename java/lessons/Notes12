@@ -1,0 +1,8 @@
+{'and'} = scope of something
+- declaration of variables,
+- biggest scope is class
+
+
+Arrays - collection of same type of data
+
+int [] array1 = {1,2}; - size of this array is 2

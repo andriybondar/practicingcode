@@ -1,0 +1,54 @@
+switch grade do
+1,2,3 : print (“Very bad”)
+4,5 : print (“Mmm......”)
+6,7 : print (“Good”)
+8,9 : print (“Very good!”)
+10  : print (“Excellent!!!”)
+default : print (“Invalid grade”)
+end switch
+
+
+
+FOR LOOP
+
+for <var> <- <expr. initialvalue > to <expr. final value > do
+	Actions
+end for
+
+
+WHILE LOOP
+<var> <- <expr. initialvalue >
+while <var> < <expr. final value > do
+	Actions
+	<var> <- <var> + 1
+end while
+
+EXAMPLE OF WHILE LOOP
+var Number : ac <- 0,i
+for i <- 1 to 5 do
+	ac = ac + i
+end for
+
+VALUES:
+numerical (int, float, double), logic (true, false), characters '', strings ""
+Number:
+Operands: Numbers
+Operators: +,-,/, div, mod and relationals.
+  Boolean:
+Operands: T or F.
+Operators: “AND”, “OR” ,“NOT”, “==“ and “!=“.
+  String
+Operands: strings (delimitated with “”)
+Operators: “+” (concatenate) and relationals.
+  Char
+Operando: symbols(delimitated with ‘’)
+Operators: relational
+
+
+NOT, - (change of sign)
+/,*, mod, div
++,-
+<, >, <=, >=
+==, !=
+AND
+OR

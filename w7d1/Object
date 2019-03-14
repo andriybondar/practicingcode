@@ -1,0 +1,6 @@
+var myObject = {
+a: 6,
+b: "abc",
+c: true,
+d: null,
+};

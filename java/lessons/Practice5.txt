@@ -1,0 +1,125 @@
+
+Goal of the practice
+Become familiar with the writing of algorithms in pseudo code and the logic required to program. Handle the agreed nomenclature.
+Management of the basic data types and their correct application.
+Using advanced flow control cycles and actions.
+Understanding expressions and properly apply the precedence of operators.
+
+
+
+1)What are the differences and similarities between an identifier and a reserved word.
+
+2)Create an algorithm to determine the largest of 3 numbers.
+
+3)Create an algorithm to determine the largest of a series of numbers that are read from the keyboard.
+The user ends by entering -1.
+
+algorythm determineLargestNumber
+var largestNumber: x = 0 y = 0
+
+while y != -1  do
+  read y
+  if x > y
+    print (largestNumber = x)
+  else
+    x = y
+    print (largestNumber = x)
+ end while
+
+
+var int y=0, z=-9999999
+while y!=-1
+y=read();
+if y>=z
+z=y
+end while
+printout z
+
+
+ <var> <- <expr. initialvalue >
+ while <var> < <expr. final value > do
+ 	Actions
+ 	<var> <- <var> + 1
+ end while
+
+
+
+
+4)Write an algorithm to determine the least of a series of numbers that are read from the keyboard.
+The user ends by entering -1. What differences do you find with respect to the previous algorithm?
+
+5)Write an algorithm to print and count the multiples of 3 from 1 to a number that we enter by keyboard.
+var number, previousNumber
+bool isBigger = true
+
+read(previousNumber)
+read(number)
+
+while (isBigger){
+
+  if (number > previousNumber){
+    previousNumber = number
+    read(number)
+  }
+  else{
+    isBigger = false
+  }
+}
+end loop
+
+6)Write an algorithm that reads a series of real numbers and adds them, printing the result.
+The series ends when the user enters the number zero
+
+int innialNumber, sum = 0
+
+do {
+read(innitialNumber)
+
+  sum = innialNumber + sum
+}
+while (innitialNumber !=0){
+print ("summ the numbers is:" + sum)
+end loop
+
+7)Write an algorithm to find the average of a series of numbers that are read from the keyboard. Compare this exercise with the previous one. What are the differences and similarities?
+
+8)Given a series of real numbers that are being read from the keyboard, determine the maximum value and the position of it.
+
+9)Write an algorithm that requests the reading of a series of individual characters and count how many times the letter "a" is entered.
+The user ends by entering the "$" symbol.
+
+algorythm howManyALetters
+var input, count=0
+read input
+while input != '$'  do
+  read (input)
+  if input == 'A' OR input =='a'
+  then count = count + 1
+  end if
+print ("Letter A or a was typed:" + count "times")
+end while
+
+
+
+10)Develop an algorithm to count the number of students whose weight is between 50 and 60,
+between 61 and 80 and between 81 and 100. The weights are entered by keyboard and report
+the number of students in each category of weight. How does the algorithm change if I want to accumulate weight totals for each category?
+
+algorythm splitingStudentsWeight
+var studentWeight, count5060=0 count6180=0 count81100
+read input
+while input != '$'  do
+  read (input)
+  if input == 'A' OR input =='a'
+  then count = count + 1
+  end if
+print ("Letter A or a was typed:" + count "times")
+end while
+
+
+11)Write an algorithm to determine if a number read by keyboard is prime.
+
+12)Write an algorithm to print and count numbers that are multiples of 2 or 3 that are between 1 and 100.
+
+13)Develop an algorithm to determine if a series of numbers that the user is entering is in increasing order or not.
+algorithm increasingOrNotNumbers
